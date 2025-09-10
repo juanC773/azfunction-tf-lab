@@ -8,3 +8,8 @@ variable "location" {
   default     = "West Europe"
   description = "Location"
 }
+
+variable "subscription_id" {
+  type        = string
+  description = "Azure Subscription ID"
+}
